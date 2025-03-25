@@ -20,8 +20,14 @@
             background-color: aquamarine;
 
         }
+
+        tbody > tr:nth-child(2n) { /* efeito zebrado*/
+            background-color: lightgray;
+
+        }
         td.num {
             text-align: right;
+            width: 100px;
         }
     </style>
 </head>
@@ -40,8 +46,8 @@
       <table>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col">população</th>
             </tr>
         </thead>
         <tbody>
